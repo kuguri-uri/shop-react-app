@@ -7,8 +7,12 @@ const AppPromo = () => {
         <div className="app-promo">
             <div className="header">
                     <img src={logo} alt={"logo"}/>
-                    <div>Our coffee</div>
-                    <div>For your pleasure</div>
+                    <div>
+                        <a href="our-coffe.html">Our coffee</a>
+                    </div>
+                    <div>
+                        <a href="for-your-pleasure.html">For your pleasure</a>
+                    </div>
             </div>
             <div className="container">
                 <h1>Everything You Love About Coffee</h1>
@@ -21,7 +25,9 @@ const AppPromo = () => {
                 We makes every day full of energy and taste<br/>
                 Want to try our beans?
                 </div>
-                <button>More</button>
+                <button>
+                    <a href="our-coffe.html">More</a>
+                </button>
             </div>
         </div>
     );
