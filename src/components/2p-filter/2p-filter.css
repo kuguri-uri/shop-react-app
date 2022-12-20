@@ -1,0 +1,40 @@
+.btn-group {
+    margin-top: 8px;
+    border-radius: 4px;
+    /* box-shadow: 15px 15px 30px rgba(0,0,0, .15); */
+}
+
+.btn-group button {
+    border-radius: 4px;
+    
+    width: 90px;
+    height: 30px;
+    margin: 0 25px ;
+    margin-top: -15px;
+
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.search-panel .wrapper {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-panel .wrapper .title {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+    color: #000000;
+}

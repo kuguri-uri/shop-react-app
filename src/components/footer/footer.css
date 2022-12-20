@@ -1,13 +1,13 @@
 .footer {
     position: absolute;
-    top: 1600px;
+    top: 1655px;
     width: 100%;
-    height: 190px;
+    height: 150px;
 }
 
 .footer .links {
     margin: 0px auto;
-    margin-top: 80px;
+    margin-top: 25px;
     width: 355px;
     height: 40px;
     display: flex;
