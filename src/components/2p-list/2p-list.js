@@ -1,6 +1,7 @@
 import EmployeesListItem from "../2p-item/2p-item";
 
 import '../2p-item/2p-item';
+import './2p-list.css';
 
 const EmployeesList = ({data, onDelete, onToggleProp}) => {
 
@@ -16,9 +17,12 @@ const EmployeesList = ({data, onDelete, onToggleProp}) => {
     })
 
     return (
-        <ul className="app-list list-group">
-            {elements}
-        </ul>
+        <div className="container">
+            <div className="items">
+                {elements}
+            </div>
+        </div>
+        
     )
 }
 

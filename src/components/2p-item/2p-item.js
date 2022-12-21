@@ -1,5 +1,7 @@
 import './2p-item.css';
 
+import coffe from '../../img/coffe.png';
+
 const EmployeesListItem = (props) => {
 
     const {name, salary, onDelete, onToggleProp, increase, rise} = props;
@@ -14,25 +16,18 @@ const EmployeesListItem = (props) => {
 
     return (
         <li className={classNames}>
-            <span className="list-group-item-label" onClick={onToggleProp} data-toggle="rise">{name}</span>
-            <input type="text" className="list-group-item-input" defaultValue={salary + '$'}/>
-            <div className='d-flex justify-content-center align-items-center'>
-                <button type="button"
-                    className="btn-cookie btn-sm "
-                    onClick={onToggleProp} 
-                    data-toggle="increase">
-                    <i className="fas fa-cookie"></i>
-                </button>
-
-                <button type="button"
-                        className="btn-trash btn-sm "
-                        onClick={onDelete}>
-                    <i className="fas fa-trash"></i>
-                </button>
-                <i className="fas fa-star"></i>
+            <div className="item">
+                <img src={coffe} alt={"coffe"} />
+                <div className="wrapper">
+                    <div className="title">AROMISTICO Coffee 1 kg</div>
+                    <div className="location">Brazil</div>
+                    <div className="price">6.99$</div>
+                </div>
             </div>
         </li>
     )
 }
+
+                    
 
 export default EmployeesListItem;

@@ -1,7 +1,17 @@
-.app-list {
-    margin-top: 30px;
-    background-color: #3d5a80;
+.data-panel {
+    position: absolute;
+    top: 2650px;
+    left: 320px;
     border-radius: 4px;
-    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
-    color: #fff;
+    /* box-shadow: 15px 15px 30px rgba(0,0,0, .15); */
+    /* color: #fff; */
+
+    margin: 0 auto;
+    width: 800px;
+}
+
+.data-panel .items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

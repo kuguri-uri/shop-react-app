@@ -116,11 +116,15 @@ class App extends Component {
                     <SearchPanel onUpdateSearch={this.onUpdateSearch}/>
                     <AppFilter filter={filter} onFilterSelect={this.onFilterSelect}/>
                 </div>
+
+                <div className="data-panel">
+                    <EmployeesList 
+                        data={visibleData}
+                        onDelete={this.deleteItem}
+                        onToggleProp={this.onToggleProp}/>
+                </div>
                 
-                <EmployeesList 
-                    data={visibleData}
-                    onDelete={this.deleteItem}
-                    onToggleProp={this.onToggleProp}/>
+                
 
             </div>
         );
