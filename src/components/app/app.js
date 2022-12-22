@@ -83,10 +83,12 @@ class App extends Component {
 
     filterPost = (items, filter) => {
         switch (filter) {
-            case 'rise':
-                return items.filter(item => item.rise);
-            case 'moreThen1000':
-                return items.filter(item => item.salary > 1000);
+            case 'Brazil':
+                return items.filter(item => item.location == 'Brazil');
+            case 'Kenya':
+                return items.filter(item => item.location == 'Kenya');
+            case 'Columbia':
+                return items.filter(item => item.location == 'Columbia');
             default:
                 return items
         }
@@ -100,7 +102,7 @@ class App extends Component {
         const {data, term, filter} = this.state;
         const employees = this.state.data.length;
         const increased = this.state.data.filter(item => item.increase).length;
-        const visibleData = this.searchEmp(data, term);
+        const visibleData = this.filterPost(this.searchEmp(data, term), filter);
 
         return (
             <div className="app">
@@ -114,7 +116,7 @@ class App extends Component {
 
                 <div className="search-panel">
                     <SearchPanel onUpdateSearch={this.onUpdateSearch}/>
-                    {/* <AppFilter filter={filter} onFilterSelect={this.onFilterSelect}/> */}
+                    <AppFilter filter={filter} onFilterSelect={this.onFilterSelect}/>
                 </div>
 
                 <div className="data-panel">

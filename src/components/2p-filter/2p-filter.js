@@ -2,9 +2,10 @@ import "./2p-filter.css";
 
 const AppFilter = (props) => {
     const buttonsData = [
-        {name: 'all', label: 'Brazil'},
-        {name: 'rise', label: 'Kenya'},
-        {name: 'moreThen1000', label: 'Columbia'}
+        {name: 'all', label: 'all'},
+        {name: 'Brazil', label: 'Brazil'},
+        {name: 'Kenya', label: 'Kenya'},
+        {name: 'Columbia', label: 'Columbia'}
     ];
 
     const buttons = buttonsData.map(({name, label}) => {

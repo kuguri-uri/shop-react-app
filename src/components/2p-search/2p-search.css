@@ -1,13 +1,13 @@
 .search-panel {
     position: absolute;
     top: 2550px;
-    left: 353px;
+    left: 280px;
     padding: 25px;
     
     color: #fff;
 
     /* height: 50px; */
-    width: 790px;
+    width: 900px;
 
     display: flex;
     justify-content: space-between;
