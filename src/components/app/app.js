@@ -19,12 +19,12 @@ class App extends Component {
         super(props);
         this.state = {
             data: [
-                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 7, id: 1},
-                {title:'AROMISTICO Coffee 1 kg', location: 'Kenya', price: 7, id: 2},
-                {title:'AROMISTICO Coffee 1 kg', location: 'Kenya', price: 7, id: 3},
-                {title:'AROMISTICO Coffee 1 kg', location: 'Columbia', price: 7, id: 4},
-                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 7, id: 5},
-                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 7, id: 6},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 6.99, id: 1},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Kenya', price: 5.49, id: 2},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Kenya', price: 5.49, id: 3},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Columbia', price: 7.99, id: 4},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 6.99, id: 5},
+                {title:'AROMISTICO Coffee 1 kg', location: 'Brazil', price: 6.99, id: 6},
             ],
             term: '', 
             filter: 'all'
