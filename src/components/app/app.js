@@ -11,6 +11,7 @@ import CoffeAbout from '../2p-about/2p-about';
 import SearchPanel from '../2p-search/2p-search';
 import AppFilter from '../2p-filter/2p-filter';
 import EmployeesList from '../2p-list/2p-list';
+import CoffeFooter from '../2p-footer/2p-footer';
 
 import './app.css';
 
@@ -123,6 +124,8 @@ class App extends Component {
                     <EmployeesList 
                         data={visibleData}/>
                 </div>
+
+                <CoffeFooter/>
                 
                 
 

@@ -1,0 +1,40 @@
+.footer {
+    position: absolute;
+    top: 3205px;
+    width: 100%;
+    height: 150px;
+}
+
+.footer .links {
+    margin: 0px auto;
+    margin-top: 25px;
+    width: 355px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .links div {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+
+    margin-top: 27px;
+}
+
+.footer .divider {
+    margin: 20px auto;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .divider div {
+    width: 60px;
+    height: 1px;
+    margin-top: 15px;
+    background: black;
+}
