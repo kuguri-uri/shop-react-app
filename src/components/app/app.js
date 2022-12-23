@@ -13,6 +13,8 @@ import AppFilter from '../2p-filter/2p-filter';
 import EmployeesList from '../2p-list/2p-list';
 import CoffeFooter from '../2p-footer/2p-footer';
 
+import CoffePromo3 from '../3p-promo/3p-promo';
+
 import './app.css';
 
 class App extends Component {
@@ -126,6 +128,8 @@ class App extends Component {
                 </div>
 
                 <CoffeFooter/>
+
+                <CoffePromo3/>
                 
                 
 

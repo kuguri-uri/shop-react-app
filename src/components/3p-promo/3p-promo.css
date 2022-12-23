@@ -1,12 +1,12 @@
-.coffe-promo {
-    top: 1655px;
+.coffe-promo-3 {
+    top: 3300px;
     position: absolute;
     width: 100%;
     height: 260px;
     background: url(../../img/coffe_bg.jpg) center center/cover no-repeat;
 }
 
-.coffe-promo .header {
+.coffe-promo-3 .header {
     margin: 50px auto;
     width: 355px;
     height: 40px;
@@ -14,7 +14,7 @@
     justify-content: space-between;
 }
 
-.coffe-promo .header div {
+.coffe-promo-3 .header div {
     font-family: 'Merienda';
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
     margin-top: 23px;
 }
 
-.coffe-promo h1 {
+.coffe-promo-3 h1 {
     font-family: 'Merienda';
     font-style: normal;
     font-weight: 700;
