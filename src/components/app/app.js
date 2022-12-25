@@ -14,6 +14,8 @@ import EmployeesList from '../2p-list/2p-list';
 import CoffeFooter from '../2p-footer/2p-footer';
 
 import CoffePromo3 from '../3p-promo/3p-promo';
+import ItemAbout from '../3p-about/3p-about';
+import ItemFooter from '../3p-footer/3p-footer';
 
 import './app.css';
 
@@ -130,6 +132,8 @@ class App extends Component {
                 <CoffeFooter/>
 
                 <CoffePromo3/>
+                <ItemAbout/>
+                <ItemFooter/>
                 
                 
 
