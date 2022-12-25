@@ -17,6 +17,9 @@ import CoffePromo3 from '../3p-promo/3p-promo';
 import ItemAbout from '../3p-about/3p-about';
 import ItemFooter from '../3p-footer/3p-footer';
 
+import PleasurePromo from '../4p-promo/4p-promo';
+import PleasureAbout from '../4p-about/4p-about';
+
 import './app.css';
 
 class App extends Component {
@@ -134,6 +137,9 @@ class App extends Component {
                 <CoffePromo3/>
                 <ItemAbout/>
                 <ItemFooter/>
+
+                <PleasurePromo/>
+                <PleasureAbout/>
                 
                 
 
