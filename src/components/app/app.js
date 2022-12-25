@@ -140,6 +140,12 @@ class App extends Component {
 
                 <PleasurePromo/>
                 <PleasureAbout/>
+                <div className="data-panel">
+                    <div className="pleasure">
+                        <EmployeesList 
+                            data={visibleData}/>
+                    </div>
+                </div>
                 
                 
 
